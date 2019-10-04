@@ -1,0 +1,44 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/offline.png'
+  name: _offline
+  timestamp: 1469191292
+layout:
+  /header/:
+    -
+      - 'logo-6113 30'
+      - 'spacer-6539 70'
+  /main/:
+    -
+      - system-messages-4833
+    -
+      - system-content-3011
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-6361 40'
+      - 'spacer-5663 30'
+      - 'branding-8689 30'
+structure:
+  header:
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  position-footer:
+    attributes:
+      key: footer
+  copyright-6361:
+    attributes:
+      enabled: 0
+  branding-8689:
+    attributes:
+      content: "©Delicious.  Developer with  <i class=\"fa fa-heart-o bounceIn animated infinite \" style=\"color: #FF0000;\"></i> By  <a href=\"http://web-komp.eu\" title=\"WebKomp\" class=\"g-powered-by\">WebKomp</a>\n\n\n"
+    block:
+      variations: center

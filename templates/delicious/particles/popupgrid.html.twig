@@ -1,0 +1,18 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+{% block particle %}
+<div class="jvg-imagegrille-bloc {{ particle.style }}">
+	{% if particle.title %}<div class="jvg-imagegrille-title {{ particle.titleclass|e }}"><div class="g-content"><h2>{{ particle.title|raw }}</h2></div></div>{% endif %}
+	<div class="jvg-imagegrille-grille {{ particle.style }}">
+		{% if particle.desc %}<div class="jvg-imagegrille-desc">{{ particle.desc|raw }}</div>{% endif %}
+		<div class="jvg-imagegrille-wrapper {{ particle.cols|e }}">
+			{% for imagegrilleelements in particle.imagegrilleelements %}
+			    <div class="jvg-imagegrille-item-{{ particle.style }}">
+			        <a class="jvg-imagegrille-link" href="{{ url(imagegrilleelements.image)|e }}" data-rokbox data-rokbox-album="{{ particle.album|e }}" data-rokbox-caption="{{ imagegrilleelements.legende|raw }}"><img src="{{ url(imagegrilleelements.image)|e }}" alt="{{ imagegrilleelements.legende|e }}"></a>
+			        {% if particle.showcaption %}<div class="jvg-grille-legende">{{ imagegrilleelements.legende|raw }}</div>{% endif %}
+			    </div>
+			{% endfor %} 
+		</div>
+		{% if particle.footer %}<div class="jvg-imagegrille-footer">{{ particle.footer|raw }}</div>{% endif %}
+	</div>	
+</div>
+{% endblock %}

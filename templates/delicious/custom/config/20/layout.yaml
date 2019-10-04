@@ -1,0 +1,337 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1469193701
+layout:
+  /header/:
+    -
+      - 'position-position-9165 33.3'
+      - 'position-position-3848 33.3'
+      - 'position-position-6042 33.3'
+  /navigation/:
+    -
+      - 'logo-8433 23'
+      - 'menu-2758 72'
+      - 'custom-3884 5'
+    -
+      - 'position-position-3226 33.3'
+      - 'position-position-6585 33.3'
+      - 'position-position-6673 33.3'
+  /slideshow/:
+    -
+      - position-position-4067
+  /top/:
+    -
+      - 'position-position-7642 33.3'
+      - 'position-position-5544 33.3'
+      - 'position-position-5776 33.3'
+  /showcase/:
+    -
+      - 'position-position-8121 33.3'
+      - 'position-position-5404 33.3'
+      - 'position-position-2509 33.3'
+  /utility/:
+    -
+      - 'position-position-8460 33.3'
+      - 'position-position-5807 33.3'
+      - 'position-position-8744 33.3'
+  /container-main/:
+    -
+      -
+        'sidebar 20':
+          -
+            - position-position-9790
+      -
+        'mainbar 60':
+          -
+            - 'position-position-9178 33.3'
+            - 'position-position-8966 33.3'
+            - 'position-position-9290 33.3'
+          -
+            - system-content-9532
+      -
+        'aside 20':
+          -
+            - position-position-6029
+  /extension/:
+    -
+      - 'position-position-9539 33.3'
+      - 'position-position-5616 33.3'
+      - 'position-position-1334 33.3'
+  /bottom/:
+    -
+      - 'position-position-6558 50'
+      - 'position-position-2521 50'
+    -
+      - position-position-5629
+  /footer/:
+    -
+      - 'position-position-4173 25'
+      - 'position-position-7002 25'
+      - 'position-position-5898 25'
+      - 'position-footer 25'
+  /copyright/:
+    -
+      - 'copyright-1069 33.3'
+      - 'branding-7884 33.3'
+      - 'totop-5132 33.3'
+  offcanvas:
+    -
+      - mobile-menu-7283
+    -
+      - custom-9193
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  slideshow:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  top:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: '3'
+      class: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+  sidebar:
+    type: section
+  mainbar:
+    type: section
+  container-main:
+    attributes:
+      boxed: ''
+  extension:
+    type: section
+    attributes:
+      boxed: ''
+  bottom:
+    type: section
+    attributes:
+      boxed: '0'
+      class: ''
+  footer:
+    attributes:
+      boxed: '0'
+      class: ''
+  copyright:
+    type: section
+    attributes:
+      boxed: ''
+content:
+  position-position-9165:
+    title: Header-A
+    attributes:
+      key: header-a
+    block:
+      variations: align-left
+  position-position-3848:
+    title: Header-B
+    attributes:
+      key: header-b
+  position-position-6042:
+    title: Header-C
+    attributes:
+      key: header-c
+    block:
+      class: g-header-c
+      variations: align-right
+  logo-8433:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://logo.png'
+      class: gantry-logo
+    block:
+      variations: align-left
+  menu-2758:
+    attributes:
+      menu: ''
+      base: /
+      startLevel: '1'
+    block:
+      variations: align-right
+  custom-3884:
+    title: 'Off Canvas Toggle'
+    attributes:
+      html: "<div class=\"g-offcanvas-toggle\" data-offcanvas-toggle=\"\">\n  <i class=\"uk-icon-bars\"></i>\n</div>"
+    block:
+      class: hidden-phone
+      variations: align-right
+  position-position-3226:
+    title: Navigation-A
+    attributes:
+      key: navigation-a
+  position-position-6585:
+    title: Navigation-B
+    attributes:
+      key: navigation-b
+  position-position-6673:
+    title: Navigation-C
+    attributes:
+      key: navigation-c
+  position-position-4067:
+    title: Slideshow
+    attributes:
+      key: slideshow
+    block:
+      variations: center
+  position-position-7642:
+    title: 'Top A'
+    attributes:
+      key: top-a
+    block:
+      class: 'wow pulse'
+      variations: center
+  position-position-5544:
+    title: 'Top B'
+    attributes:
+      key: top-b
+  position-position-5776:
+    title: 'Top C'
+    attributes:
+      key: top-c
+  position-position-8121:
+    title: Showcase-A
+    attributes:
+      key: showcase-a
+    block:
+      variations: center
+  position-position-5404:
+    title: Showcase-B
+    attributes:
+      key: showcase-b
+  position-position-2509:
+    title: Showcase-C
+    attributes:
+      key: showcase-c
+  position-position-8460:
+    title: Utility-A
+    attributes:
+      key: utility-a
+    block:
+      variations: center
+  position-position-5807:
+    title: Utility-B
+    attributes:
+      key: utility-b
+  position-position-8744:
+    title: Utility-C
+    attributes:
+      key: utility-c
+  position-position-9790:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  position-position-9178:
+    title: Mainbar-A
+    attributes:
+      key: mainbar-a
+  position-position-8966:
+    title: Mainbar-B
+    attributes:
+      key: mainbar-b
+  position-position-9290:
+    title: Mainbar-C
+    attributes:
+      key: mainbar-c
+  position-position-6029:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-9539:
+    title: Extension-A
+    attributes:
+      key: extension-a
+    block:
+      class: white
+      variations: center
+  position-position-5616:
+    title: Extension-B
+    attributes:
+      key: extension-b
+    block:
+      variations: center
+  position-position-1334:
+    title: Extension-C
+    attributes:
+      key: extension-c
+  position-position-6558:
+    title: Bottom-B
+    attributes:
+      key: bottom-b
+    block:
+      class: g-margin
+      variations: center
+  position-position-2521:
+    title: Bottom-C
+    attributes:
+      key: bottom-c
+  position-position-5629:
+    title: Bottom-A
+    attributes:
+      key: bottom-a
+  position-position-4173:
+    title: Footer-A
+    attributes:
+      key: footer-a
+    block:
+      class: 'wow fadeInLeft g-footer-b'
+  position-position-7002:
+    title: Footer-B
+    attributes:
+      key: footer-b
+    block:
+      class: 'wow fadeInUp'
+      variations: center
+  position-position-5898:
+    title: Footer-C
+    attributes:
+      key: footer-c
+    block:
+      class: 'wow fadeInRight g-footer-c g-footer-b'
+      variations: align-left
+  position-footer:
+    title: Footer-D
+    attributes:
+      enabled: 0
+      key: footer-d
+    block:
+      variations: align-left
+  copyright-1069:
+    attributes:
+      enabled: 0
+      date:
+        end: ''
+      owner: www.web-komp.eu
+  branding-7884:
+    attributes:
+      content: "© Delicious.  Developer with  <i class=\"fa fa-heart-o bounceIn animated infinite \" style=\"color: #FF0000;\"></i> By  <a href=\"http://web-komp.eu\" title=\"WebKomp\" class=\"g-powered-by\">WebKomp</a>\n\n\n"
+  totop-5132:
+    title: 'To Top'
+    attributes:
+      css:
+        class: totop
+      icon: 'fa fa-2x  fa-angle-double-up'
+      content: ''
+  custom-9193:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h3>Offcanvas Section</h3>\n\nWhen your site's screen has not enough space you can use our Off-Canvas Section. \n\nYou can also add the hidden-phone module class suffix to your modules so they do not appear in the Offcanvas Section when the site is loaded on a mobile device.\n"
+    block:
+      class: white
+      variations: center

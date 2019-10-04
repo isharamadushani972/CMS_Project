@@ -1,0 +1,27 @@
+#g-extension {
+    background: $extension-background;
+    color: $extension-text-color;
+    position: relative;
+    z-index: 1;
+    padding:$section-padding 0;
+	// Container
+	.g-container {
+		padding: 1.5rem 0;
+		@include breakpoint(mobile-only) {
+			text-align: center;
+		}		
+	}    
+}
+
+
+    #g-extension .g-title {
+		color: $off-black;
+	}
+
+
+@media print {
+	#g-extension {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

@@ -1,0 +1,16 @@
+.gantry-logo{
+	font-family: get-font-family($base-heading-font);
+	font-weight:$font-weight-bold;
+	font-size: $core-font-size ;
+	text-transform: uppercase;
+	@include breakpoint(mobile-only) {
+		display: block;
+		text-align: center;
+	}
+}
+a {
+		color: $accent-color-1;
+		&:hover {
+			color: $navigation-text-color;
+		}
+	}

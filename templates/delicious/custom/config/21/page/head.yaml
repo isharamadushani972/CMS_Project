@@ -1,0 +1,43 @@
+atoms:
+  -
+    id: headroom-5868
+    type: headroom
+    title: Headroom.js
+    attributes:
+      enabled: '1'
+      cssselector: '#g-navigation'
+      offset: '500'
+      animation: bounce
+      mobile: disable
+  -
+    id: uikit-9069
+    type: uikit
+    title: 'UIkit for Gantry5'
+    attributes:
+      enabled: '1'
+      jslocation: footer
+  -
+    id: scrollreveal-js-6484
+    type: scrollreveal-js
+    title: ScrollReveal.js
+    attributes:
+      enabled: '1'
+      mobile: 'true'
+  -
+    id: wow-js-9516
+    type: wow-js
+    title: WOW.js
+    attributes:
+      enabled: '1'
+      offset: '200'
+      mobile: 'true'
+  -
+    id: fixed-header-4632
+    type: fixed-header
+    title: 'Fixed Header'
+    attributes:
+      enabled: '0'
+      cssselector: '#g-navigation'
+      mobile: disable
+      secondtrigger: '1'
+      secondoffset: '600'

@@ -1,0 +1,20 @@
+#g-utility {
+    background: $utility-background;
+    color: $utility-text-color;
+
+}
+
+
+#g-utility h2, h3, h4, h5, h6, strong, h1 {
+		color: $off-black;
+	}
+
+    #g-utility  .g-title {
+		color: $off-black;
+	}
+@media print {
+	#g-utility {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

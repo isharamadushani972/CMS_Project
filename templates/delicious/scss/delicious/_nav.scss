@@ -1,0 +1,222 @@
+#g-navigation {
+	background: $navigation-background;
+	color: $navigation-text-color;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	
+
+	.g-container {
+		position: relative;
+	}
+
+	a {
+		color: lighten($navigation-background, 40%);
+		&:hover {
+			color: $navigation-text-color;
+		}
+	}
+
+	.g-social {
+		a {
+			background: darken($navigation-background, 6%);
+			border: none;
+			color: $navigation-text-color;
+			@include transition(background 0.2s);
+			&:hover {
+				background: lighten($navigation-background, 6%);
+			}
+		}
+	}
+
+	.g-main-nav {
+		margin: -($content-padding + $content-margin);
+		@include main-nav-colors($navigation-background, $navigation-text-color, $main-background, $main-text-color);
+		.g-toplevel {
+			@include display(flex);
+			@include flex-flow(row wrap);
+			justify-content: center;
+			-webkit-justify-content: center;
+		}
+	}
+
+	@include main-nav-indicators($navigation-background, $navigation-text-color);
+
+	.search {
+		input {
+			color: $main-text-color;
+		}
+	}
+}
+
+.g-main-nav {
+	.g-standard {
+		.g-dropdown {
+	    	@extend %dropdown-column;
+	    }
+	}
+	.g-toplevel {
+		font-weight: $font-weight-medium;
+		> li {
+
+			> .g-menu-item-container {
+				padding: 1.2rem $content-padding;
+			}
+
+			> .g-menu-item-container {
+				> .g-menu-item-content {
+					line-height: normal;
+				}
+			}
+		}
+
+		i {
+			opacity: 0.6;
+		}
+	}
+	
+
+       .g-sublevel {
+	        
+            > li {
+
+                > .g-menu-item-container {
+                    font-weight: $font-weight-regular;
+                    font-size: $core-font-size;
+                    padding: 0;
+                    color: $navigation-text-color;
+					
+					
+                 
+					 
+                    > .g-menu-item-content {
+                        margin: 0;
+                        .dir-rtl & {
+                            padding-left: $content-margin + 0.2;
+                            padding-right: 0;
+                        }
+                    }
+
+                    &:hover {
+                        color: $accent-color-1;
+						  padding-left: 10px;
+                    }
+                }
+                &:hover {
+                    > .g-menu-item-container {
+                 
+                        background: transparentize($black, 95%);
+						 transition: all 0s ease 0s, all 0.2s ease 0s;
+						   -webkit-transition:  all 0s ease 0s, all 0.2s ease 0s;
+                          -moz-transition: all 0s ease 0s, all 0.2s ease 0s;
+                          -o-transition:  all 0s ease 0s, all 0.2s ease 0s;
+						  
+
+                    }
+                }
+                
+            }
+        }
+	
+
+
+
+
+
+
+.input-append .add-on, .input-prepend .add-on {
+background:none;
+    border: 1px solid #ccc;
+    display: inline-block;
+	}
+	
+	
+	.g-menu-parent-indicator:after{
+	background:none;
+	}
+
+	
+	 .g-dropdown {
+    border-radius: 3px;
+}
+	
+
+	.g-dropdown {
+		text-align: left;
+	}
+
+	.g-sublevel {
+		> li {
+			> .g-menu-item-container {
+				padding: ($content-padding + $content-margin)/2 1rem;
+			}
+		}
+	}
+}
+
+#g-navigation, #g-header {
+	.align-left {
+		.g-toplevel {
+			justify-content: flex-start;
+			-webkit-justify-content: flex-start;
+		}
+	}
+
+	.align-right {
+		.g-toplevel {
+			justify-content: flex-end;
+			-webkit-justify-content: flex-end;
+		}
+	}
+}
+
+// Subtitle
+.g-menu-item-subtitle {
+	opacity: 0.7;
+}
+
+// Nav Overlay
+.g-nav-overlay, .g-menu-overlay {
+	background: $navigation-overlay;
+}
+
+@media print {
+	#g-navigation {
+	
+		color: #000 !important;
+	}
+}
+
+
+
+.presets {
+  height: auto;
+  padding: 20px 10px;
+  width: 58px;
+  z-index: 99;
+}
+
+a.btn-preset {
+  border-radius: 10%;
+  height: 20px;
+  width: 20px;
+  margin: 8px;
+  float: left;
+}
+
+a.btn-preset.preset1 {
+  background: #EB4B49 none repeat scroll 0 0;
+}
+
+a.btn-preset.preset2 {
+  background: #C39C5E none repeat scroll 0 0;
+}
+
+a.btn-preset.preset3 {
+  background: #88BC00 none repeat scroll 0 0;
+}
+
+a.btn-preset.preset4 {
+  background: #37B6BD none repeat scroll 0 0;
+}
+

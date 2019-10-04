@@ -1,0 +1,22 @@
+#g-top {
+	background: $top-background;
+	color: $top-text-color;
+    padding:$section-padding 0;
+	// Container
+	.g-container {
+		padding: 1.5rem 0;
+		@include breakpoint(mobile-only) {
+			text-align: center;
+		}		
+	}    
+}
+
+
+
+
+@media print {
+	#g-top {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}

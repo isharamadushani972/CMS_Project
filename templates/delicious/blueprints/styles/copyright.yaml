@@ -1,0 +1,15 @@
+name: Copyright Styles
+description: Copyright colors for the Delicious theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#0B0B0B"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#ffffff"

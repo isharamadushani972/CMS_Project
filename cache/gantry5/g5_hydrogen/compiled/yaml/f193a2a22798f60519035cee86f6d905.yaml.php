@@ -1,0 +1,60 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:\\xampp\\htdocs\\ishara/templates/g5_hydrogen/custom/config/13/index.yaml',
+    'modified' => 1562653777,
+    'data' => [
+        'name' => 13,
+        'timestamp' => 1562653777,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/home.png',
+            'name' => 'home',
+            'timestamp' => 1562653777
+        ],
+        'positions' => [
+            'footer' => 'Footer'
+        ],
+        'sections' => [
+            'header' => 'Header',
+            'navigation' => 'Navigation',
+            'showcase' => 'Showcase',
+            'feature' => 'Feature',
+            'subfeature' => 'Subfeature',
+            'main' => 'Main',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'menu' => [
+                'menu-5771' => 'Menu'
+            ],
+            'sample' => [
+                'sample-1' => 'Gantry 5',
+                'sample-2' => 'Getting Started',
+                'sample-3' => 'Key Features'
+            ],
+            'messages' => [
+                'system-messages-4331' => 'System Messages'
+            ],
+            'position' => [
+                'position-footer' => 'Footer'
+            ],
+            'copyright' => [
+                'copyright-2769' => 'Copyright'
+            ],
+            'social' => [
+                'social-3818' => 'Social'
+            ],
+            'branding' => [
+                'branding-9238' => 'Branding'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-6327' => 'Mobile Menu'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

@@ -1,0 +1,188 @@
+
+.mxt .header-top {
+    background-color: #666; color: #fafafa;
+}
+
+.mxt .header-top .header-top-menu ul li a {
+    color: #999999;
+}
+
+.mxt .header-top .header-top-menu ul li:hover > a {
+    color: #f0634c;
+}
+
+.mxt .header-top .header-top-menu > ul > li:not(:last-child):after {
+    color: rgba(153, 153, 153, 0.3);
+}
+
+.mxt .header-top .header-top-social-links a {
+    color: #999999 !important;
+}
+
+
+.mxt.top-false {
+    height: 70px;
+    padding: 10px;
+}
+
+.mxt .header-body {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.11);
+    height: 64px;
+}
+
+.mxt .header-body .mx-base {
+    padding-top: 7px;
+}
+
+.mxt .desk-menu .sub-menu .label {
+    font-family: Montserrat;
+}
+
+.mxt.effect-overline .desk-menu > ul > li > a:after {
+    top: -30px;
+}
+
+.mxt.fixed-true.active .header-body,
+.mxt.fixed-true.active {
+    height: 60px;
+}
+.mxt.fixed-true.active .header-body .mx-base,
+.mxt.fixed-true.active .mx-base {
+    padding-top: 2px;
+}
+
+.mxt.fixed-true.active.top-true {
+    height: 100px;
+}
+
+.mxt.fixed-true.active .header-body {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.desk {display: block;}
+
+.header-content > .container {
+	position: relative;
+	margin: 0 auto;
+}
+
+.header-top {
+	position: relative;
+}
+
+.header-top .slogan {
+	line-height: 36px;
+}
+
+
+/*Z INDEX*/
+
+.header-top  {z-index:805;position: relative;}
+
+.header-body {
+	position: relative; z-index:805;
+}
+.desk {
+				position: relative;
+				top: 0;
+				left: 0;
+				z-index:800;
+				width: 100%;
+				height: 70px;
+			}
+
+.desk.stuck-true,
+.desk.stuck-boxed-true {
+	position: absolute;
+	box-shadow: none;
+}
+
+.desk.stuck-boxed-true {
+	top:30px;
+	max-width: 1170px;
+	width: 100%;
+	left: 50%;
+	margin-left: -585px;
+}
+
+.desk.stuck-boxed-true .container {
+	max-width: 100%;
+	width: 100%;
+}
+
+.desk.stuck-boxed-true .header-top,
+.desk.stuck-boxed-true .header-body {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.desk.stuck-boxed-true.fixed-true:not(.active) {
+	top:30px !important;
+	left: 50%;
+}
+
+.desk.stuck-boxed-true.fixed-true.active {
+	top:0 !important;
+	left:0 !important;
+	margin-left: 0 !important;
+	max-width: 100%;
+	width: 100%;
+}
+
+.header-top > .container {
+	height: 40px;
+}
+
+
+.header-top .slogan {
+	float: left;
+}
+
+.header-top .header-top-menu,
+.header-top .top-button,
+.header-top .social-links {
+	float: right;
+}
+
+/*FIXED*/
+
+.desk.fixed-true {
+	position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-transition:height 300ms linear, transform 300ms linear; 
+	-ms-transition:height 300ms linear, transform 300ms linear; 
+	transition:height 300ms linear, transform 300ms linear;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform:translateY(0px);
+	-ms-transform:translateY(0px);
+	transform:translateY(0px);
+}
+
+.desk.fixed-true .header-body {
+	-webkit-transition:height 300ms linear, background-color 300ms linear; 
+	-ms-transition:height 300ms linear, background-color 300ms linear; 
+	transition:height 300ms linear, background-color 300ms linear;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.desk.top-true.fixed-true.active {
+	-webkit-transform:translateY(-42px);
+	-ms-transform:translateY(-42px);
+	transform:translateY(-42px);
+}
+
+.desk.fixed-true .logo,
+.desk.fixed-true .logo-title,
+.desk.fixed-true .desk-menu > ul > li {
+	-webkit-transition:height 300ms linear, line-height 300ms linear; 
+	-ms-transition:height 300ms linear, line-height 300ms linear; 
+	transition:height 300ms linear, line-height 300ms linear;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+

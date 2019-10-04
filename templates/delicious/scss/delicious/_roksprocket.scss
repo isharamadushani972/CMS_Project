@@ -1,0 +1,144 @@
+/// RokSprocket
+    [class*="arrows"] {
+        .arrow {
+            border: 1px solid $accent-color-1;
+
+            &:before {
+                color: $accent-color-1;
+            }
+
+            &:hover {
+                background: #f0f0f0;
+
+                &::before {
+                }
+            }
+        }
+    }
+    [class*="navigation"] {
+        .arrow {
+            border: 1px solid #222;
+
+            &:before {
+                color: $accent-color-1;
+            }
+
+            &:hover {
+                background: $accent-color-1;
+
+                &::before {
+                }
+            }
+        }
+    }
+// RokSprocket Strips Arrow
+@media
+only screen and (min-width: 1195px) and (max-width: 1275px),
+only screen and (min-width: 960px) and (max-width: 1070px),
+only screen and (min-width: 768px) and (max-width: 880px),
+only screen and (min-width: 482px) and (max-width: 600px),
+only screen and (max-width: 480px) {
+	body.layout-mode-responsive {
+		.sprocket-strips {
+			.sprocket-strips-arrows .arrow {
+				&.prev {
+					left: -10px;
+				}
+				&.next {
+					right: -10px;
+				}
+			}
+		}
+	}
+}
+   .sprocket-strips-container {
+        .sprocket-strips-content {
+            background: #f7f7f7;
+            color: #818181;
+            border:1px solid #e2e2e2;
+            box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.08);
+
+            &:hover {
+                background:#fff;
+                color: #818181;
+            }
+        }
+    }
+
+    .sprocket-strips-title a {
+       olor: #818181;
+    }
+#g-slideshow .sprocket-features-desc{ background:none; width:600px; }
+	#g-slideshow .sprocket-features-content{ width:100%; left:0; top:25%; }
+	#g-slideshow .slider-heading{ text-transform:uppercase; font-weight:bold; }
+
+#g-slideshow .slider-heading:after {
+			height:2px;
+			width:45px;
+			content:"";
+			display:block;
+			margin:10px auto 30px;
+		}
+ #g-slideshow .slider-title{ text-transform:uppercase; font-size:1.8em; font-weight:bold; line-height:50px; margin-bottom:20px; }
+ #g-slideshow .sprocket-features-arrows .arrow{ height:40px; width:40px; box-shadow:none; background:$accent-color-1; opacity:1; }
+		#g-slideshow .sprocket-features-arrows .arrow.next span{ left:2px; }
+		 #g-slideshow .sprocket-features-arrows .arrow.prev span{ left:-1px; }
+		 #g-slideshow .sprocket-features-arrows .arrow:hover{ background:$accent-color-1; }
+		 #g-slideshow .sprocket-features-arrows .arrow span{ bottom:10px;position:relative; }
+
+#g-slideshow .layout-slideshow .sprocket-features-pagination {
+  left: 50%; 
+}
+#g-slideshow .btn-primary{color: #fff;
+box-shadow: none;
+text-shadow: none;
+padding: 12px 30px;
+border-radius: 0;
+height: auto;
+font-size: 15px;
+font-weight: bold;
+line-height: 19px;
+background: $accent-color-1;
+text-transform: uppercase;
+border: 2px solid transparent;}
+
+#g-slideshow .btn-primary:hover{color: #fff;
+box-shadow: none;
+text-shadow: none;
+padding: 12px 30px;
+border-radius: 0;
+height: auto;
+font-size: 15px;
+font-weight: bold;
+line-height: 19px;
+background: darken($accent-color-1, 10%);
+text-transform: uppercase;
+border: 2px solid transparent;}
+
+@media screen and (max-width:767px) {
+    #g-slideshow .sprocket-features .sprocket-features-content {
+        top: 10%;
+    }
+
+    #g-slideshow .sprocket-features .slider-heading {
+        font-size: 1.5vw;
+        line-height: normal;
+    }
+
+    #g-slideshow .sprocket-features .slider-title {
+        font-size: 2.5vw;
+        line-height: normal;
+    }
+
+    #g-slideshow .sprocket-features .slider-heading:after {
+        margin: 10px auto 15px;
+    }
+}
+@media screen and (max-width:767px) {
+			   #g-slideshow .btn-primary , .btn2{ padding:1% 2%; font-size:2.5vw; }
+		}
+@media screen and (max-width:666px) {
+    #g-slideshow .sprocket-features .sprocket-features-desc {
+        width: 100%;
+    }
+}

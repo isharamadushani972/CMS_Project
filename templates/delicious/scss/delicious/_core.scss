@@ -1,0 +1,113 @@
+body {
+	color: $base-text-color;
+	background: $base-background;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#g-page-surround {
+	background: $base-background;
+}
+
+
+#g-page-surround .btn, #g-page-surround .btn-primary {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .1875rem;
+    background: $accent-color-1;
+    color: $white;
+    border: 0;
+    line-height: 1.5;
+    font-size: .9rem;
+    vertical-align: middle;
+    text-shadow: none;
+    box-shadow: none;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 -1px 0 0 rgba(0,0,0,.14) inset;
+    -webkit-transition: background .2s;
+    -moz-transition: background .2s;
+    transition: background .2s;
+    .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: top;
+    border-top: 4px solid #ffffff;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+  }
+}
+
+#g-page-surround .btn:hover, #g-page-surround .btn-primary:hover {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: .1875rem;
+    background: $accent-color-2;
+    color: $white;
+    border: 0;
+    line-height: 1.5;
+    font-size: .9rem;
+    vertical-align: middle;
+    text-shadow: none;
+    box-shadow: none;
+    text-align: center;
+    box-shadow: 0 -1px 0 0 rgba(0,0,0,.14) inset;
+    -webkit-transition: background .2s;
+    -moz-transition: background .2s;
+    transition: background .2s;
+    }
+@media print {
+	#g-page-surround {
+		background: #fff !important;
+		color: #000 !important;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	color: $off-black;
+}
+.g-title {
+		color: $off-black;
+	}
+.button {
+	display: inline-block;
+	font-family: get-font-family($base-body-font);
+	font-weight: $font-weight-bold;
+	text-transform: uppercase;
+	background: $accent-color-1;
+	color: $white !important;
+	font-size: $core-font-size;
+	border: 2px solid transparent;
+	margin: 0 0 0.5rem 0;
+	padding: 0.75rem 1.75rem;
+	vertical-align: middle;
+	text-shadow: none;
+	@include transition(all 0.2s);
+	&:hover, &:active, &:focus {
+		background: darken($accent-color-1, 10%);
+		color: $white !important;
+	}
+}
+a {
+  color: $accent-color-1;
+  @include transition(all 0.2s);
+  &:hover {
+    color: inherit;
+  }
+}
+.gantry-logo {
+	display: inline-block;
+	@include breakpoint(mobile-only) {
+		display: block;
+		text-align: center;
+	}
+	img {
+		width: 150px;
+	}
+}
+
+.logo-large {
+	display: inline-block;
+}

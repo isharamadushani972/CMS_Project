@@ -1,0 +1,26 @@
+atoms:
+  -
+    id: headroom-4325
+    type: headroom
+    title: Headroom.js
+    attributes:
+      enabled: '1'
+      cssselector: '#g-navigation'
+      offset: '500'
+      animation: bounce
+      mobile: disable
+  -
+    title: 'UIkit for Gantry5'
+    type: uikit
+    attributes:
+      enabled: true
+      jslocation: footer
+    id: uikit-9689
+  -
+    id: wow-js-4702
+    type: wow-js
+    title: WOW.js
+    attributes:
+      enabled: '1'
+      offset: '200'
+      mobile: 'true'

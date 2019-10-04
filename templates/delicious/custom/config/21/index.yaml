@@ -1,0 +1,105 @@
+name: '21'
+timestamp: 1471879600
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1471423284
+positions:
+  header-a: Header-A
+  header-b: Header-B
+  header-c: Header-C
+  navigation-a: Navigation-A
+  navigation-b: Navigation-B
+  navigation-c: Navigation-C
+  slideshow: Slideshow
+  top-a: 'Top A'
+  top-c: 'Top C'
+  top-b: 'Top B'
+  showcase-a: Showcase-A
+  showcase-b: Showcase-B
+  showcase-c: Showcase-C
+  utility-a: Utility-A
+  utility-b: Utility-B
+  utility-c: Utility-C
+  sidebar: Sidebar
+  mainbar-a: Mainbar-A
+  mainbar-b: Mainbar-B
+  mainbar-c: Mainbar-C
+  aside: Aside
+  extension-a: Extension-A
+  extension-b: Extension-B
+  extension-c: Extension-C
+  bottom-a: Bottom-A
+  bottom-b: Bottom-B
+  bottom-c: Bottom-C
+  footer-a: Footer-A
+  footer-b: Footer-B
+  footer-c: Footer-C
+  footer-d: Footer-D
+sections:
+  header: Header
+  navigation: Navigation
+  slideshow: Slideshow
+  top: Top
+  showcase: Showcase
+  utility: Utility
+  sidebar: Sidebar
+  mainbar: Mainbar
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  aside: Aside
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  position:
+    position-position-9165: Header-A
+    position-position-3848: Header-B
+    position-position-6042: Header-C
+    position-position-3226: Navigation-A
+    position-position-6585: Navigation-B
+    position-position-6673: Navigation-C
+    position-position-4067: Slideshow
+    position-position-7642: 'Top A'
+    position-position-5776: 'Top C'
+    position-position-5544: 'Top B'
+    position-position-8121: Showcase-A
+    position-position-5404: Showcase-B
+    position-position-2509: Showcase-C
+    position-position-8460: Utility-A
+    position-position-5807: Utility-B
+    position-position-8744: Utility-C
+    position-position-9790: Sidebar
+    position-position-9178: Mainbar-A
+    position-position-8966: Mainbar-B
+    position-position-9290: Mainbar-C
+    position-position-6029: Aside
+    position-position-9539: Extension-A
+    position-position-5616: Extension-B
+    position-position-1334: Extension-C
+    position-position-5629: Bottom-A
+    position-position-6558: Bottom-B
+    position-position-2521: Bottom-C
+    position-position-4173: Footer-A
+    position-position-7002: Footer-B
+    position-position-5898: Footer-C
+    position-footer: Footer-D
+  logo:
+    logo-8433: 'Logo / Image'
+  menu:
+    menu-2758: Menu
+  custom:
+    custom-1744: 'Custom HTML'
+    custom-8351: 'Custom HTML'
+  content:
+    system-content-9532: 'Page Content'
+  copyright:
+    copyright-1069: Copyright
+  branding:
+    branding-7884: Branding
+  totop:
+    totop-5132: 'To Top'
+  mobile-menu:
+    mobile-menu-7283: Mobile-menu
+inherit: {  }

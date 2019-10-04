@@ -1,0 +1,43 @@
+#g-footer {
+	background: $footer-background;
+	color: $footer-text-color;
+     h2, h3, h4, h5, h6, strong, h1 {
+		color: $footer-text-color;
+	
+	// Container
+	.g-container {
+		padding: 1.5rem 0;
+		@include breakpoint(mobile-only) {
+			text-align: center;
+
+		}		
+	}
+}
+	.g-content {
+		padding: 0 $content-padding;
+		@include breakpoint(mobile-only) {
+			padding: $content-padding/2 $content-padding 0 $content-padding;
+		}		
+	}
+ }
+#g-footer a {
+		color: $accent-color-1;
+		&:hover {
+			color: lighten($accent-color-1, 5%);
+		}
+	}
+
+
+	#g-footer .g-title{
+		color: $white;
+	}
+
+
+
+@media print {
+	#g-footer {
+		background: #2a2a2a !important;
+		color: #fff !important;
+	}
+}
+

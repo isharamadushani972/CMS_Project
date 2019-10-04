@@ -1,0 +1,59 @@
+<?php
+return [
+    '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
+    'filename' => 'C:/xampp/htdocs/ishara/templates/delicious/custom/config/_error/index.yaml',
+    'modified' => 1562649532,
+    'data' => [
+        'name' => '_error',
+        'timestamp' => 1471774946,
+        'version' => 7,
+        'preset' => [
+            'image' => 'gantry-admin://images/layouts/default.png',
+            'name' => '_error',
+            'timestamp' => 1469191292
+        ],
+        'positions' => [
+            'footer' => 'Footer'
+        ],
+        'sections' => [
+            'header' => 'Header',
+            'navigation' => 'Navigation',
+            'main' => 'Main',
+            'footer' => 'Footer',
+            'offcanvas' => 'Offcanvas'
+        ],
+        'particles' => [
+            'spacer' => [
+                'spacer-2597' => 'Spacer',
+                'spacer-4331' => 'Spacer'
+            ],
+            'logo' => [
+                'logo-1633' => 'Logo'
+            ],
+            'menu' => [
+                'menu-4541' => 'Menu'
+            ],
+            'content' => [
+                'system-content-1635' => 'Page Content'
+            ],
+            'position' => [
+                'position-footer' => 'Footer'
+            ],
+            'copyright' => [
+                'copyright-6432' => 'Copyright'
+            ],
+            'date' => [
+                'date-6732' => 'Date'
+            ],
+            'branding' => [
+                'branding-9556' => 'Branding'
+            ],
+            'mobile-menu' => [
+                'mobile-menu-7727' => 'Mobile-menu'
+            ]
+        ],
+        'inherit' => [
+            
+        ]
+    ]
+];

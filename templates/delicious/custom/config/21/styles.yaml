@@ -1,0 +1,23 @@
+preset: preset1
+base:
+  text-color: '#818181'
+  body-font: family=Abel
+  heading-font: family=Architects+Daughter
+accent:
+  color-1: '#ef4c4a'
+  color-2: '#34322e'
+navigation:
+  background: '#ffffff'
+  text-color: '#818181'
+  overlay: 'rgba(0, 0, 0, 0.4)'
+header:
+  background: '#ef4c4a'
+copyright:
+  background: '#0b0b0b'
+  text-color: '#ffffff'
+offcanvas:
+  background: '#333333'
+breakpoints:
+  large-desktop-container: 75rem
+menu:
+  animation: g-zoom

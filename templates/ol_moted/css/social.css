@@ -1,0 +1,87 @@
+#soc_div {
+    width: 100%;
+    position: absolute;
+    top: -29px;
+    left: 0;
+    text-align: center;
+}
+.soc_bgr {
+    display: inline-block;
+    background: #ff5400;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 5px 27px;
+}
+.item-social-icons {
+  display: block;
+  line-height: 42px;
+  position: relative;
+}
+
+.item-social-icons > a {
+  float: right;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  line-height: 42px;
+  opacity: 0;
+  pointer-events: none;
+  text-align: center;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.item-social-icons > a > .fa{
+  color: #f1f1f1;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 10px;
+  text-indent: 4px;
+}
+
+.item-social-icons > a > .fa:hover {
+  color: #fff;
+}
+
+.item-social-icons > a {
+  opacity: 1;
+  pointer-events: all;
+  z-index: 1;
+}
+.item-social-icons > a {
+color: #999;
+background: none;
+}
+.item-social-icons > a:hover {
+    animation-name: showroom_rotate;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+@keyframes showroom_rotate {
+    from {
+        transform: rotateY(0);
+        -webkit-transform: rotateY(0);
+        -moz-transform: rotateY(0);
+        -ms-transform: rotateY(0);
+        -o-transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+    }
+}

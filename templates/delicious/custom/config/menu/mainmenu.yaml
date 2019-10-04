@@ -1,0 +1,194 @@
+ordering:
+  home: ''
+  joomla:
+    -
+      content-views: ''
+      featured-articles: ''
+      list-all-categories: ''
+      category-list: ''
+      other-views: ''
+      login: ''
+    -
+      features:
+        layouts: ''
+        uikit: ''
+      tags: ''
+      username-reminder: ''
+      password-reset: ''
+      search-results: ''
+      pricing: ''
+    -
+      __particle-xJ8cu: ''
+      __module-7KF7e: ''
+    -
+      __particle-RUt2k: ''
+  contacts: ''
+  styles:
+    __particle-ZOPVf: ''
+  kunena-2016-07-29: ''
+  blog: ''
+  buy-now: ''
+items:
+  kunena-2016-07-29:
+    id: 242
+    link_title: ''
+  home:
+    id: 101
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    class: ''
+    icon: 'fa fa-cutlery'
+    subtitle: Welcome
+  joomla:
+    id: 107
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    class: ''
+  joomla/content-views:
+    id: 124
+    link_title: ''
+  joomla/featured-articles:
+    id: 128
+    link_title: ''
+  joomla/list-all-categories:
+    id: 127
+    link_title: ''
+  joomla/category-list:
+    id: 126
+    link_title: ''
+  joomla/other-views:
+    id: 125
+    link_title: ''
+  joomla/login:
+    id: 129
+    link_title: ''
+  joomla/pricing:
+    id: 245
+    link_title: ''
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    class: ''
+    icon: 'fa fa-eur'
+  joomla/password-reset:
+    id: 246
+    link_title: ''
+  joomla/username-reminder:
+    id: 247
+    link_title: ''
+  joomla/search-results:
+    id: 248
+    link_title: ''
+  joomla/features:
+    id: 102
+    link_title: ''
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: 300px
+    class: ''
+  joomla/features/layouts:
+    id: 103
+    link_title: ''
+  joomla/features/uikit:
+    id: 104
+    link_title: ''
+  joomla/tags:
+    id: 186
+    link_title: ''
+  contacts:
+    id: 151
+    link_title: ''
+  styles:
+    id: 208
+    link_title: ''
+    hash: ''
+    dropdown: standard
+    dropdown_dir: left
+    dropdown_hide: '0'
+    width: ''
+    class: ''
+  blog:
+    id: 243
+    link_title: ''
+  buy-now:
+    id: 263
+    link_title: ''
+    hash: ''
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    class: ''
+    icon: 'fa fa-opencart'
+    subtitle: Quickstart
+  styles/__particle-ZOPVf:
+    type: particle
+    particle: custom
+    title: 'Custom HTML'
+    options:
+      particle:
+        enabled: '1'
+        html: "\n<a class=\"btn-preset preset1\" href=\"?presets=preset1\"> </a>\n<a class=\"btn-preset preset2\" href=\"?presets=preset2\"></a>\n<a class=\"btn-preset preset3\" href=\"?presets=preset3\"></a>\n<a class=\"btn-preset preset4\" href=\"?presets=preset4\"></a>\n\n\n\n"
+        twig: '0'
+        filter: '0'
+      block:
+        extra: {  }
+  test/__particle-huSqx:
+    type: particle
+    particle: popupgrid
+    title: RokBox
+    options:
+      particle:
+        enabled: '1'
+        style: jvg-bloc-image-style-2
+        title: gfgf
+        titleclass: ''
+        desc: fgfg
+        cols: g-imagegrille-2cols
+        album: ''
+        showcaption: '0'
+        footer: gfgf
+        imagegrilleelements: {  }
+      block:
+        extra: {  }
+  joomla/__particle-xJ8cu:
+    type: particle
+    particle: date
+    title: Date
+    options:
+      particle:
+        enabled: '1'
+        css:
+          class: date
+        date:
+          formats: 'l, F d, Y'
+      block:
+        extra: {  }
+  joomla/__module-7KF7e:
+    type: particle
+    particle: module
+    title: Login
+    options:
+      particle:
+        enabled: '1'
+        module_id: '49'
+        chrome: ''
+      block:
+        extra: {  }
+  joomla/__particle-RUt2k:
+    type: particle
+    particle: custom
+    title: 'Custom HTML'
+    options:
+      particle:
+        enabled: '1'
+        html: " Restaurant Gallery \n<p><p/>\n\n Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna erat\n\n\n\n\n<p><p/>\n\n\n\n<a data-rokbox href=\"images/bl.jpg\" data-rokbox-album=\"RokBox2 Album\" data-rokbox-caption=\"Album Image 1\" data-rokbox-generate-thumbnail></a>\n\t\n<div style=\"display: none;\">\n\t<a data-rokbox href=\"images/bl1.jpg\" data-rokbox-album=\"RokBox2 Album\" data-rokbox-caption=\"Album Image 2\"></a>\n\t<a data-rokbox href=\"images/bl2.jpg\" data-rokbox-album=\"RokBox2 Album\" data-rokbox-caption=\"Album Image 3\"></a>\n\t<a data-rokbox \nhref=\"images/bl3.jpg\" data-rokbox-album=\"RokBox2 Album\" data-rokbox-caption=\"Album Image 4\"></a>\n        <a data-rokbox \nhref=\"images/bl4.jpg\" data-rokbox-album=\"RokBox2 Album\" data-rokbox-caption=\"Album Image 5\"></a>\n     <a data-rokbox \nhref=\"images/bl5.jpg\" data-rokbox-album=\"RokBox2 Album\" data-rokbox-caption=\"Album Image 6\"></a>\n</div>\n"
+        twig: '0'
+        filter: '1'
+      block:
+        extra: {  }

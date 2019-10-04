@@ -1,0 +1,26 @@
+preset: preset1
+base:
+  text-color: '#818181'
+  body-font: 'roboto, sans-serif'
+  heading-font: family=Architects+Daughter
+accent:
+  color-1: '#EF4C4A'
+navigation:
+  overlay: 'rgba(0, 0, 0, 0.4)'
+header:
+  background: '#EF4C4A'
+  text-color: '#ffffff'
+showcase:
+  background: '#ffffff'
+bottom:
+  background: '#ffffff'
+offcanvas:
+  background: '#333333'
+  text-color: '#ffffff'
+  toggle-color: '#222222'
+  width: 20rem
+breakpoints:
+  large-desktop-container: 75rem
+menu:
+  col-width: 180px
+  animation: g-zoom
